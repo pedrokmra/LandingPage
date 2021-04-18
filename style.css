@@ -34,6 +34,11 @@ a
     color: black;
 }
 
+a:hover
+{
+    color: white;
+}
+
 ul
 {
     list-style: none;
@@ -90,6 +95,12 @@ button
     cursor: pointer;
 
     padding: 1.5rem 3rem;
+}
+
+button:hover
+{
+    background: white;
+    border: .2rem solid var(--mainColor);
 }
 
 
